@@ -3,32 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* navbar */
-#nav{
-    display:flex;
-    align-items: center;
-    background-color: black;
-    height: 70px;
-    justify-content: space-between;
-   }
-   #nav .ul{
-       display:flex;
-       align-items: center;
-   
-   }
-   #nav .ul li{
-       list-style: none;
-       padding: 15px;
-       
-   }
-   #nav .ul li a{
-       text-decoration: none;   
-       font-size: 21px;
-       color: white;
-   }
-   #nav .ul li a:hover{
-       color: red;   
-   }
+
+
    #idinput{
     border-radius: 7px;
     border-style: double;
@@ -55,6 +31,10 @@
 }
 #currentTime{
     color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #heading{
     color: darkblue;
@@ -63,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #date{
@@ -85,6 +66,7 @@
     align-items: center;
     height: 37px;
     color: white;
+    flex-wrap: wrap;
 
 } 
 
